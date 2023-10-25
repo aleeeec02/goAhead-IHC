@@ -8,6 +8,8 @@ body{
     background-color: aliceblue;
 }
 .header{
+    width: 100%;
+    position: fixed;
     background-color: #04A5E5;
     display: flex;
     justify-content: space-between;
@@ -29,6 +31,32 @@ body{
     font-size: 700;
     color: #ffffff;
     text-decoration: none;
+    position: relative;
+}
+.header .nav-links li a {
+    position: relative;
+    text-decoration: none;
+    color: #ffffff; /* Color de texto normal */
+    transition: color 0.3s;
+}
+
+.header .nav-links li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Grosor del subrayado */
+    bottom: 0;
+    left: 0;
+    background-color: transparent; /* Color de subrayado normal */
+    transition: background-color 0.3s;
+}
+
+.header .nav-links li a:hover {
+    color: #fff; /* Color de texto al pasar el mouse */
+}
+
+.header .nav-links li a:hover::before {
+    background-color: #fff; /* Color de subrayado al pasar el mouse */
 }
 .btn-login{
     padding: 15px 30px 15px 30px;
@@ -37,6 +65,7 @@ body{
     text-decoration: none;
     color: #ffffff;
 }
+
 .principal-inicio{
     background-color: #04A5E5;
     display: flex;
@@ -58,6 +87,10 @@ body{
     font-size: 18px;
     margin-bottom: 40px;
     font-weight: 100;
+}
+.btn-login:hover{
+    background-color: #004b69;
+    transition: background-color 0.4s;
 }
 .comunidad{
     background-color: #ffffff;
@@ -82,8 +115,15 @@ body{
     margin-left: 15px;
     margin-bottom: 20px;
 }
+.comunidad .texto-caracteristicas .texto-caracteristicas-interior ul li .primera-caracteristica h3, .segunda-caracteristica h3, .tercera-caracteristica h3{
+    font-size: 25px;
+    font-weight: 600;
+}
 .comunidad .texto-caracteristicas .texto-caracteristicas-interior ul li .primera-caracteristica p, .segunda-caracteristica p, .tercera-caracteristica p{
     width: 400px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
 }
 .comunidad .texto-caracteristicas .texto-caracteristicas-interior h1{
     font-size: 44px;
@@ -96,7 +136,7 @@ body{
         width: 300px;
         margin: 20px;
         display: inline-block;
-        background-color: #f4f4f4;
+        background-color: #ffffff;
         border-radius: 5px;
         padding-top: 20px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -142,7 +182,12 @@ body{
         }
         .cartilla-texto{
             margin-top: 20px;
-            padding: 30px 30px;
+            padding: 60px 40px;
+        }
+        .cartilla-texto:hover{
+            background-color: #04A5E5;
+            color: #ffffff;
+            transition: background-color 0.5s;
         }
     }
 }
@@ -155,6 +200,7 @@ body{
 }
 .recursos .cartilla .cartilla-texto h2{
     font-size: 24px;
+    margin-bottom: 10px;
 }
 .acerca-de{
     height: 600px;
