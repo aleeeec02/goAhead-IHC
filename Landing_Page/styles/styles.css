@@ -222,12 +222,17 @@ body{
         }
     }
 }
-
+.footer{
+    margin-top: 200px;
+}
 .footer .primera-seccion{
     margin-bottom: 100px;
     height: 400px;
     background-color: #04A5E5;
     padding: 5px 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .redes{
         display: flex;
         margin: 50px auto 0px;
@@ -255,4 +260,24 @@ body{
     color: #ffffff;
     font-weight: 500;
     text-align: center;
+}
+
+.footer .segunda-seccion{
+    padding: 5px 15%;
+    .boton-login-footer{
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .texto-ultima-linea{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding-bottom: 5px;
+    }
+    .ultima-linea{
+        display: flex;
+        gap: 20px;
+        width: fit-content;
+        margin: 100px auto;
+    }
 }
