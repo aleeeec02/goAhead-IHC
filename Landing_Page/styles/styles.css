@@ -1,0 +1,87 @@
+*{
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.header{
+    background-color: #04A5E5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 15%;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .nav-links{
+    list-style:none;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links a{
+    font-size: 700;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-login{
+    padding: 15px 30px 15px 30px;
+    background-color: #42B4EE;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.principal-inicio{
+    background-color: #04A5E5;
+    display: flex;
+    height: 600px;
+    padding: 5px 15%;
+    color: #ffffff;
+    justify-content: space-between;
+    .texto-presentacion, .imagen-presentacion{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.principal-inicio .texto-presentacion h1{
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+.principal-inicio .texto-presentacion p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.comunidad{
+    background-color: #ffffff;
+    display: flex;
+    height: 800px;
+    padding: 5px 15%;
+    color: #000000;
+    justify-content: space-evenly;
+    .imagen-presentacion, .texto-caracteristicas{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.comunidad .texto-caracteristicas .texto-caracteristicas-interior ul{
+    list-style: none;
+}
+.comunidad .texto-caracteristicas .texto-caracteristicas-interior ul li{
+    display: flex;
+}
+.comunidad .texto-caracteristicas .texto-caracteristicas-interior ul li .primera-caracteristica, .segunda-caracteristica, .tercera-caracteristica{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.comunidad .texto-caracteristicas .texto-caracteristicas-interior ul li .primera-caracteristica p, .segunda-caracteristica p, .tercera-caracteristica p{
+    width: 400px;
+}
