@@ -85,3 +85,78 @@ body{
 .comunidad .texto-caracteristicas .texto-caracteristicas-interior ul li .primera-caracteristica p, .segunda-caracteristica p, .tercera-caracteristica p{
     width: 400px;
 }
+.comunidad .texto-caracteristicas .texto-caracteristicas-interior h1{
+    font-size: 44px;
+    margin-bottom: 80px;
+}
+.recursos {
+    text-align: center;
+    margin-top: 100px;
+    .cartilla {
+        width: 300px;
+        margin: 20px;
+        display: inline-block;
+        background-color: #f4f4f4;
+        border-radius: 5px;
+        padding-top: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        .cartilla-imagen .cartilla-imagen-interior-1{
+            width: 155px;
+            height: 145px;
+            margin: 0 auto;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(203, 57, 239, 0.15);
+        }
+        .cartilla-imagen .cartilla-imagen-interior-2{
+            width: 155px;
+            height: 145px;
+            margin: 0 auto;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(39, 174, 96, 0.15)
+        }
+        .cartilla-imagen .cartilla-imagen-interior-3{
+            width: 155px;
+            height: 145px;
+            margin: 0 auto;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(239, 186, 50, 0.15)
+        }
+        .cartilla-imagen .cartilla-imagen-interior-4{
+            width: 155px;
+            height: 145px;
+            margin: 0 auto;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(210, 15, 57, 0.15)
+        }
+        .cartilla-texto{
+            margin-top: 20px;
+            padding: 30px 30px;
+        }
+    }
+}
+.recursos h1{
+    font-size: 44px;
+    margin-bottom: 80px;
+}
+.recursos .cartilla .cartilla-imagen img{
+    width: 70px;
+}
+.recursos .cartilla .cartilla-texto h2{
+    font-size: 24px;
+}
+.acerca-de{
+    display: flex;
+}
+
