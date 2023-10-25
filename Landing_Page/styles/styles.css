@@ -194,4 +194,32 @@ body{
     font-size: 44px;
     margin-bottom: 80px;
 }
+.features{
+    margin-top: 300px;
+    padding: 5px 15%;
+}
+.features h2{
+    font-size: 44px;
+    text-align: center;
+    margin-bottom: 80px
+}
+.features .cartillas-features .cartilla-feature-interior-1, .cartilla-feature-interior-2, .cartilla-feature-interior-3{
+    display: flex;
+    justify-content: space-evenly;
+    .cartilla-1, .cartilla-2{
+        width: 555px;
+        margin: 20px;
+        display: inline-block;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: 1px solid rgba(5, 17, 20, 0.1);
+        .parrafo-cartilla{
+            padding: 30px;
+        }
+        .parrafo-cartilla p{
+            font-size: 16px;
+            font-weight: 300;
+        }
+    }
+}
 
