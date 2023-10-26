@@ -1,0 +1,138 @@
+/*SECCION: BASICO*/
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+}
+
+.white-body {
+    color: rgb(255, 255, 255);
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    border-radius: 10px;
+}
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/*SECCION: INICIAR_SESION.html*/
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.forgot-password {
+    margin: 10px 0;
+    text-align: right;
+}
+
+
+/*SECCION: REGISTRARSE.html*/
+
+.register-container {
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/*SECCION: OLVIDASTE TU CONTRASEÑA.html*/
+.reset-password-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reset-password-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reset-password-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+/*SECCION: CREAR_PUBLICACION.html.html*/
+
+.post-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.post-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post-container textarea {
+    resize: vertical;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
