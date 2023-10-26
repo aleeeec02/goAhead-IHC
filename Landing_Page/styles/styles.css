@@ -87,6 +87,7 @@ body{
     font-size: 18px;
     margin-bottom: 40px;
     font-weight: 100;
+    width: 550px;
 }
 .btn-login:hover{
     background-color: #004b69;
